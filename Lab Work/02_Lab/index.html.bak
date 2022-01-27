@@ -3,17 +3,21 @@
 <head>
 	<title> Horror Game</title>
 </head>
-<body>
+<body style="margin: 0px; background: #0e0e0e; height: 100%; color: #FFFFFF">
 	<h1> CIS 201 Group Story </h1>
 	<p> Nate went to bed early. he was a sleep peacefully then suddenly he heard a starnge noise he wakes up in a different place, not in his bedrom. 
 	</p>
-	<img src="download.png" >
 	<img src="0977a6f741653f26821eb8c13d5ba5c0.gif" >
+	<img src="download.png" >
+	
 	<p> What should nate do? </p>
 	
 	<ul>
-	<lil> <a href="light_page.html"> Search for light </a> </lil>
-	<lil> Escape </lil>
+	<lil> <a href="light_page.html"> Search for light </a> 
+	</lil>
+	<p></p>
+	<lil> <a href= 0977a6f741653f26821eb8c13d5ba5c0.gif"">  Escape </a> 
+	</lil>
 	</ul>
 	
 	</body>
