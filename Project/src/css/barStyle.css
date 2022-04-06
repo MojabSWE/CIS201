@@ -83,7 +83,25 @@ ul{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
-.wrapper .main_content{
+
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+   
+}
+
+.social{
+margin: auto;
+padding: auto;
+width: 20%;
+
+}
+
+
+/* .wrapper .main_content{
    width: 100%;
    margin-left: 200px; 
 }
@@ -103,19 +121,4 @@ ul{
 
 .wrapper .main_content .info{
     margin-bottom: 20px;
-}
-
-.img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
-   
-}
-
-.social{
-margin: auto;
-padding: auto;
-width: 20%;
-
-}
+}*/
