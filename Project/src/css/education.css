@@ -27,25 +27,39 @@ body {
     list-style: circle;
     margin: 10px;
     padding: 10px;
-}
-
-.table table{
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 15px
-}
-
-.table tr,th,td{
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 10px
- 
+    
 }
 
 .table a{
     text-decoration: none;
-    color: #08fdd8;
+    color: #ffffff;
+   font-weight: bold;
 }
 
 .table a:hover{
     text-decoration: none;
-    color: white;
+    color: rgb(172, 172, 172);
 }
+
+.table table{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+     font-family: 'Roboto', sans-serif;
+}
+
+.table tr,th,td{
+    width: 20%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.table th{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+}
+
+.table td{
+    background-color:#1d1d1d;
+    color: rgb(255, 255, 255);
+    }
+    
+
