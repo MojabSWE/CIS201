@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: #1d1d1d;
+    font-family: monospace;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.edu ul{
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.edu li{
+    list-style: circle;
+     margin: 10px;
+    padding: 10px;
+}
+
+.achv ul{
+    list-style: none;
+    font-size: 0.8rem;
+}
+
+.achv li{
+    list-style: circle;
+    margin: 10px;
+    padding: 10px;
+}
+
+.table table{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px
+}
+
+.table tr,th,td{
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px
+ 
+}
+
+.table a{
+    text-decoration: none;
+    color: #08fdd8;
+}
+
+.table a:hover{
+    text-decoration: none;
+    color: white;
+}
