@@ -4,3 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
     
   }
+
+  #wsite-nav-cart-a {
+    position: relative;
+    background: url(http://www.clker.com/cliparts/U/D/n/G/6/h/white-shopping-cart-md.png) 2px 8px no-repeat;
+    background-size: 20px;
+    padding-left: 30px;
+}
