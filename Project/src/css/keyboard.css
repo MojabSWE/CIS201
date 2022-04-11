@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    background: #1d1d1d;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+  }
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    color: #1d1d1d;
+    font-family: 'Roboto', sans-serif;
+
+}
+.image{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    
+}
+
+figure{
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+.image #zoom-in img{
+transform: scale(1);
+transition: 0.3s ease-in-out;
+}
+
+.image #zoom-in img:hover{
+    transform: scale(1.5);
+}
+
+.btn button{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    width: 50%;
+    height: 100%;
+    border-radius: 50px;
+    background-color: #ffd814
+}
+
+.btn button:hover{
+   background-color: rgb(255, 255, 255);
+}
+
+.cart a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  .cart a:hover {
+    background-color: #ddd;
+    color: black;
+  }
