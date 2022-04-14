@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Switches</title>
+    <link rel="stylesheet" href="../src/css/switch.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../src/css/style.css">
     <script src="https://kit.fontawesome.com/464f263b51.js" crossorigin="anonymous"></script>
 </head>
 <body>
+ 
     <div class="w3-top">
         <div class="w3-bar w3-black w3-card">
           <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
@@ -23,8 +24,8 @@
           <div class="w3-dropdown-hover w3-hide-small">
             <button class="w3-padding-large w3-button" title="More">PRODUCTS <i class="fa fa-caret-down"></i></button>     
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a href="keyboardSection.html" class="w3-bar-item w3-button">KEYBOARDS</a>
-                <a href="switchSection.html" class="w3-bar-item w3-button">SWITCHES</a>
+              <a href="keyboardSection.html" class="w3-bar-item w3-button">KEYBOARDS</a>
+              <a href="switchSection.html" class="w3-bar-item w3-button">SWITCHES</a>
               <!--<a href="#" class="w3-bar-item w3-button">ACCESSORIES</a> -->
             </div>
           </div>
@@ -33,7 +34,9 @@
             <a href=""><i class="fa-solid fa-cart-shopping"></i> </a>
             <a href="loginPage.html"><i class="fa-solid fa-user"></i> </a>
           </div>
+         
         </div>
+
       </div>
 
       <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
@@ -43,6 +46,138 @@
     <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
     <a href="education.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EDUCATION</a>
   </div>
- 
+
+
+<!--JS code to add sound when you click button to add the switch sound and allow the user to hear the switch from my website instead of going to youtube.-->
+<script>
+  function play(){
+    var audio= document.getElementById("audio")
+    audio.play();
+  }
+</script>
+
+<br>
+<br>
+<h1 style="font-weight: bold;">Switches</h1>
+<div class="row">
+    <div class="image">
+        <div id="zoom-in">
+            <figure>
+                <img src="../src/imgs/Switches/BlackSwitcheswebp.webp" alt="">
+            </figure>
+            <h3>Gateron Black Switch set</h3>
+            <p>$18.00</p>
+            <div class="btn">
+                <button>Add to cart</button>
+               </div>
+               <div class="soundBtn">
+                <button id="BlackS" onclick="play()">Click To Test Switch Sound</button>
+                <audio id="audio" src="../src/audio/BlackSwitchSound.mp3"></audio>
+               </div>
+        </div>
+    </div>
+    <div class="image">
+        <div id="zoom-in">
+            <figure>
+                <img src="../src/imgs/Switches/BlueSwitches.jpg"alt="">
+            </figure>
+            <h3>Tactile Blue Switch 12 Pack</h3>
+            <p>$8.00 </p>
+            <div class="btn">
+                <button>Add to cart</button>
+               </div>
+               <div class="soundBtn">
+                <button id="BlueS" onclick="play()">Click To Test Switch Sound</button>
+                <audio id="audio" src="../src/audio/BlueSwitchSound.mp3"></audio>
+               </div>
+        </div>
+    </div>
+    <div class="image">
+        <div id="zoom-in">
+            <figure>
+                <img src="../src/imgs/Switches/BrownSwitches.webp" alt="">
+            </figure>
+            <h3>Cherry Mix Brown Switch Set</h3>
+            <p>$15.00 </p>
+           <div class="btn">
+            <button>Add to cart</button>
+           </div>
+           <div class="soundBtn">
+            <button id="BrownS" onclick="play()">Click To Test Switch Sound</button>
+            <audio id="audio" src="../src/audio/BrownSwitchSound.mp3"></audio>
+           </div>
+        </div>
+    </div>
+
+
+    <div class="image">
+        <div id="zoom-in">
+            <figure>
+                <img src="../src/imgs/Switches/RedSwitches.jpg" alt="">
+            </figure>
+            <h3>Linear Red Switches 35 Pack</h3>
+            <p>$10.00 </p>
+           <div class="btn">
+            <button>Add to cart</button>
+           </div>
+           <div class="soundBtn">
+            <button id="RedS" onclick="play()">Click To Test Switch Sound</button>
+            <audio id="audio" src="../src/audio/RedSwitchSound.mp3"></audio>
+           </div>
+        </div>
+    </div>
+    <div class="image">
+        <div id="zoom-in">
+            <figure>
+                <img src="../src/imgs/Switches/SilverSwitchesjpg.jpg" alt="">
+            </figure>
+            <h3>Gateron Silver Switch Set</h3>
+            <p>$18.00 </p>
+           <div class="btn">
+            <button>Add to cart</button>
+           </div>
+           <div class="soundBtn">
+            <button id="SilverS" onclick="play()">Click To Test Switch Sound</button>
+            <audio id="audio" src="../src/audio/SilverSwitchSound.mp3"></audio>
+           </div>
+        </div>
+    </div>
+    <div class="image">
+        <div id="zoom-in">
+            <figure>
+                <img src="../src/imgs/Switches/YellowSwitches.webp" alt="">
+            </figure>
+            <h3>Gateron Yellow Switch Set</h3>
+            <p>$18.00 </p>
+           <div class="btn">
+            <button>Add to cart</button>
+           </div>
+           <div class="soundBtn">
+            <button id="YellowS" onclick="play()">Click To Test Switch Sound</button>
+            <audio id="audio" src="../src/audio/YellowSwitchSound.mp3"></audio>
+           </div>
+        </div>
+    </div>  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-#1d1d1d w3-xlarge">
+    <a href="https://github.com/MIP-code/CIS201.git" target="_blank"><i class="fa fa-github w3-hover-opacity" style="font-size:38px;color:rgb(255, 255, 255)"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity" style="font-size:38px;color:rgb(255, 255, 255)"></i>
+    <p class="w3-medium" style="color: white;">My socials</p>
+  </footer>
+
 </body>
 </html>
