@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../src/css/cart.css">
     <script src="https://kit.fontawesome.com/464f263b51.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -50,15 +51,6 @@
     <a href="education.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EDUCATION</a>
   </div>
 
-
-<!--JS code to add sound when you click button to add the switch sound and allow the user to hear the switch from my website instead of going to youtube.-->
-<script>
-  function play(){
-    var audio= document.getElementById("audio")
-    audio.play();
-  }
-</script>
-
 <br>
 <br>
 <h1 style="font-weight: bold;">Switches</h1>
@@ -70,9 +62,12 @@
             </figure>
             <h3>Gateron Black Switch set</h3>
             <p>$18.00</p>
-            <div class="btn">
-                <button>Add to cart</button>
-               </div>
+            <button class="cart-button">
+                <span class="add-to-cart">Add to cart</span>
+                <span class="added">Added</span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
                <div class="soundBtn">
                 <button id="BlackS" onclick="play()">Click To Test Switch Sound</button>
                 <audio id="audio" src="../src/audio/BlackSwitchSound.mp3"></audio>
@@ -86,9 +81,12 @@
             </figure>
             <h3>Tactile Blue Switch 12 Pack</h3>
             <p>$8.00 </p>
-            <div class="btn">
-                <button>Add to cart</button>
-               </div>
+            <button class="cart-button">
+                <span class="add-to-cart">Add to cart</span>
+                <span class="added">Added</span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
                <div class="soundBtn">
                 <button id="BlueS" onclick="play()">Click To Test Switch Sound</button>
                 <audio id="audio" src="../src/audio/BlueSwitchSound.mp3"></audio>
@@ -102,9 +100,12 @@
             </figure>
             <h3>Cherry Mix Brown Switch Set</h3>
             <p>$15.00 </p>
-           <div class="btn">
-            <button>Add to cart</button>
-           </div>
+            <button class="cart-button">
+                <span class="add-to-cart">Add to cart</span>
+                <span class="added">Added</span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
            <div class="soundBtn">
             <button id="BrownS" onclick="play()">Click To Test Switch Sound</button>
             <audio id="audio" src="../src/audio/BrownSwitchSound.mp3"></audio>
@@ -120,9 +121,12 @@
             </figure>
             <h3>Linear Red Switches 35 Pack</h3>
             <p>$10.00 </p>
-           <div class="btn">
-            <button>Add to cart</button>
-           </div>
+            <button class="cart-button">
+                <span class="add-to-cart">Add to cart</span>
+                <span class="added">Added</span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
            <div class="soundBtn">
             <button id="RedS" onclick="play()">Click To Test Switch Sound</button>
             <audio id="audio" src="../src/audio/RedSwitchSound.mp3"></audio>
@@ -136,9 +140,12 @@
             </figure>
             <h3>Gateron Silver Switch Set</h3>
             <p>$18.00 </p>
-           <div class="btn">
-            <button>Add to cart</button>
-           </div>
+            <button class="cart-button">
+                <span class="add-to-cart">Add to cart</span>
+                <span class="added">Added</span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
            <div class="soundBtn">
             <button id="SilverS" onclick="play()">Click To Test Switch Sound</button>
             <audio id="audio" src="../src/audio/SilverSwitchSound.mp3"></audio>
@@ -152,9 +159,12 @@
             </figure>
             <h3>Gateron Yellow Switch Set</h3>
             <p>$18.00 </p>
-           <div class="btn">
-            <button>Add to cart</button>
-           </div>
+            <button class="cart-button">
+                <span class="add-to-cart">Add to cart</span>
+                <span class="added">Added</span>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-box"></i>
+            </button>
            <div class="soundBtn">
             <button id="YellowS" onclick="play()">Click To Test Switch Sound</button>
             <audio id="audio" src="../src/audio/YellowSwitchSound.mp3"></audio>
@@ -162,18 +172,6 @@
         </div>
     </div>  
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- Footer -->
@@ -192,6 +190,12 @@
         </div>
     </footer>
   </div>
+  
 
+  <!--Sound effect JS function to play switch audio with the click of a button-->
+  <script src="../src/js/soundEffect.js"></script>
+
+
+  <script src="../src/js/cart.js"></script>
 </body>
 </html>

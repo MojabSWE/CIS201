@@ -2,9 +2,8 @@ var myIndex = 0;
 carousel();
 
 function carousel() {
-  var i;
   var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
+  for (var i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
   myIndex++;
@@ -23,10 +22,4 @@ function myFunction() {
   }
 }
 
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+
